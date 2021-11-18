@@ -1,8 +1,6 @@
-import * as path from "path";
 import * as os from "os";
 const arch = os.arch();
 const platform = os.platform();
-const version = "4.2.1";
 
 import { osx64 } from "@static-box/ffmpeg-osx";
 import { win32, win64 } from "@static-box/ffmpeg-win";
